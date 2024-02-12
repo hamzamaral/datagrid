@@ -1,0 +1,22 @@
+
+<mat-card  class="card-container">
+  <button  mat-icon-button    mat-dialog-close class="inputButton" >
+    <mat-icon style="    width: 24px;
+    height: 24px">close</mat-icon>
+  </button>
+<mat-dialog-content class="mat-typography  " >
+  <h3>Sosyal Medya Linki </h3>
+  <input matInput   [(ngModel)]="Link"  >
+  <h3>Sosyal Medya Adı</h3>
+  <input matInput  [(ngModel)]="ad" >
+  <h3>Açıklama</h3>
+  <input matInput  [(ngModel)]="Aciklama"  >
+
+
+</mat-dialog-content>
+<mat-dialog-actions align="end">
+  <button mat-button mat-dialog-close>Vazgeç</button>
+  <button mat-button cdkFocusInitial  [mat-dialog-close]="true" (click)="kaydet()"  
+  style="background: #744BFC; color: white; margin-left: 10px;">Kaydet</button>
+</mat-dialog-actions>
+</mat-card>

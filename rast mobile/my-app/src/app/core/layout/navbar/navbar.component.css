@@ -1,0 +1,49 @@
+.svg{
+    width: 124.27px;
+    height: 36.7px;
+    top: -467px;
+    left: -1019px;
+
+}
+
+.toolbarContainer{
+    display: flex;
+    background-color: white;
+}
+
+.text-button{
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}  
+
+.deneme:hover,
+.deneme:active {
+background-color: initial;
+box-shadow: none; 
+text-shadow: none;
+    
+}
+
+mat-button:hover,mat-icon-button:hover {
+    background-color:  brown;;
+    box-shadow: none;
+  }
+  
+  /* Butona tıkladığında arka plan rengini iptal et */
+  mat-button:active, mat-icon-button:active {
+    background-color: brown;
+    box-shadow: none;
+
+  }
+  
+  /* Odaklanıldığında (örneğin, klavye ile erişimde) arka plan rengini iptal et */
+  mat-button:focus, mat-icon-button:focus {
+    background-color: transparent !important;
+    box-shadow: none;
+
+  }

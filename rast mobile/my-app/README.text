@@ -1,0 +1,15 @@
+Benim Uygulamam
+Bu proje, Angular CLI sürüm 17.1.3 ile oluşturulmuştur.
+
+Geliştirme sunucusu
+Geliştirme sunucusu için "ng serve" komutunu çalıştırın. Tarayıcınızı http://localhost:4200/ adresine yönlendirin. Uygulama, kaynak dosyalarından herhangi birini değiştirdiğinizde otomatik olarak yeniden yüklenecektir.
+
+Derleme
+Projeyi derlemek için ng build komutunu çalıştırın. Derleme ürünleri dist/ dizininde saklanacaktır.
+
+Proje kapsamında, verdiğiniz tabloyu Angular Material kullanarak benzer bir görünüme dönüştürmeye çalıştım.
+ Tablonun yanı sıra butonlara işlevsellik ekledim. Örneğin, ekle butonuyla tabloya yeni bir satır ekleyebilecek bir işlev ekledim.
+  Projem kısa olduğu için sadece core ve features adında iki dosya oluşturdum. Genellikle projelerimde, bu dosyaları 
+  kullanarak temel yapı taşlarını ayırıyorum. Core dosyasında servisleri, footer ve navbar bileşenlerini barındırırken,
+   features içerisinde genellikle anasayfada kullanılan bileşenlere yer veriyorum. Ancak bu projede, kısıtlı sayıda bileşen oluşturabildim.ve ayrıyeten kullanıcının girdiği bilgileri
+    lokalstrage user_data key adındakullanıcın  girdiği bilgileri kayıtlı 

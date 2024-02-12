@@ -1,0 +1,194 @@
+
+table {
+    width: 100%;
+  }
+
+  .htmlcontainer{
+    display: flex;
+    height: 100%;
+    width: 96%;
+    margin-left: 2%;
+    /* background: linear-gradient(180deg, #EFF2FF -30.56%, rgba(232, 236, 255, 0) 135.85%); */
+    background: linear-gradient(180deg, #EFF2FF -30.56%, rgba(232, 236, 255, 0) 135.85%);
+
+    justify-content: center
+
+  }
+  
+  td, th {
+    width: 25%;
+  }
+
+   .filterContainer{
+    
+    width: 25%;
+    display: flex;
+
+    height: 42px;
+     border-radius: 39px; 
+     background-color: #744BFC;
+     margin-bottom: 15px;
+   }  
+   
+
+  .cotainer{
+    margin-top: 10px; 
+    background: linear-gradient(180deg, #EFF2FF -30.56%, rgba(232, 236, 255, 0) 135.85%);
+    width: 94%;
+
+
+  }
+
+  .buttunicon{
+    background-color: #744BFC;
+
+    height: 42px;
+    width: 9%;
+    border-radius: 39px;
+    color: white;
+  }
+
+  .filterİnput:focus {
+    /* Odaklandığında uygulanacak stiller */
+    border-color: rgb(173, 100, 22) ;
+    /* background-color: blueviolet; */
+   
+}
+.containerfilter{
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#dialogbutton{
+  background: #744BFC;
+  border-radius: 39px;;
+  height: 42px;;
+ }
+
+ 
+
+/* .cotainerfilterr{
+  border-radius: 100%;
+  background-color: rgb(70, 50, 141);} */
+
+
+
+  .filterİnput{
+    /* background-color: blue; */
+    background: white;
+
+    border: none;
+    border-top-left-radius: 39px;
+    border-bottom-left-radius: 39px;
+
+    /* width: 380px;
+    height: 42px;
+    top: -352px;
+    left: -1019px;*/
+        
+  }
+
+  .mat-mdc-form-field-flex {
+    display: inline-flex;
+    align-items: baseline;
+    box-sizing: border-box;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+
+}
+
+/* .paginator-container{ */
+  /* display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    align-items: flex-start; */
+/* } */
+/* .paginator-container   { */
+  /* display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-between;
+  align-items: flex-start; */
+/* } */
+
+/* 
+.mat-mdc-paginator .mat-mdc-paginator-outer-container {
+   background-color: black;
+} */
+
+::ng-deep .paginator-container .mat-mdc-paginator-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 8px;
+  flex-wrap: nowrap;
+  
+  /* background-color: blue; */
+}
+
+
+/* .mat-mdc-paginator-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-between;
+  align-items: flex-start;
+} */
+
+
+/* #thm {
+  background-color: #744BFC;
+}
+
+#yrk{
+  background-color: #744BFC;
+
+} */
+::ng-deep .mat-elevation-z8 .mat-mdc-header-row {
+  background: #FFFFFF;
+
+}
+
+::ng-deep .mdc-data-table__content .mat-mdc-row {
+  /* background: linear-gradient(180deg, #EFF2FF -30.56%, rgba(232, 236, 255, 0) 135.85%); */
+  /* background-color: #EFF2FF; */
+  background-color: #ffffff;
+  
+}
+
+/* ::ng-deep .asd{
+  background-color: #cd2b1db5;
+} */
+
+
+
+#mat-rowid2:nth-child(even){
+  background: linear-gradient(180deg, #EFF2FF -30.56%, rgba(232, 236, 255, 0) 135.85%);
+
+}
+
+#mat-rowid2:nth-child(odd){
+  background: #FFFFFFB5;
+
+
+}
+
+#mat-rowid2{
+  font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left
+}
+
+
+ 
+
+/* class="mat-mdc-header-row mdc-data-table__header-row cdk-header-row" */
+/* mat-mdc-row mdc-data-table__row cdk-row */
